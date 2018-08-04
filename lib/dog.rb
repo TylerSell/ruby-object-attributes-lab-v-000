@@ -1,12 +1,10 @@
 class Dog 
-  
-  
-  def name=(name)
-    @name = called
-  end
-  
   def name 
     @name 
+  end
+  
+  def name=(new_name)
+    @name = called
   end
   
   def breed 
